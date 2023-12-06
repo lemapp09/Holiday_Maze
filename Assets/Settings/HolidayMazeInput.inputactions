@@ -1,0 +1,62 @@
+{
+    "name": "HolidayMazeInput",
+    "maps": [
+        {
+            "name": "QuitGame",
+            "id": "0cf98c18-31ae-4862-af5a-59b2a222d372",
+            "actions": [
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "822c9c0f-20e9-4e50-851f-2b66ace2d42b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e48043fb-92be-4fd7-b685-9f433f379c3b",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "SwitchMusic",
+            "id": "0a9730fc-d442-4aca-91c8-4da5c59f1897",
+            "actions": [
+                {
+                    "name": "Switch",
+                    "type": "Button",
+                    "id": "db0ec65d-ef91-46d3-ae23-87af8c489571",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ccd9639f-47df-46ce-adf7-331a4fae719d",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Switch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
